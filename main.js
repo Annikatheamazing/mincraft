@@ -22,7 +22,7 @@ function player_update() {
 
 
 function new_image(get_image) {
-    fabric.image.fromURL(get_image, function (Img) {
+    fabric.Image.fromURL(get_image, function (Img) {
         block_image_object = Img;
 
         block_image_object.scaleToWidth(block_image_width);
