@@ -48,7 +48,7 @@ function my_keydown(e) {
         document.getElementById("current_height").innerHTML = block_image_height;
 
     }
-    if(e.shiftKey && keyPressed == '77') {
+    if(e.shiftKey == true && keyPressed == '77') {
         console.log("m and shift pressed together");
         block_image_width = block_image_width - 10;
         block_image_height = block_image_height - 10;
